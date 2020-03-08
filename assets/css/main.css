@@ -78,7 +78,14 @@ table {
 body {
 	-webkit-text-size-adjust: none;
 }
+body::-webkit-scrollbar {
+	display: none;
+}
 
+/* Hide scrollbar for IE and Edge */
+body {
+	-ms-overflow-style: none;
+}
 mark {
 	background-color: transparent;
 	color: inherit;
@@ -95,6 +102,7 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+
 
 /* Basic */
 
